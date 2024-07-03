@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliver</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -20,13 +22,22 @@
             </header>
             <section>
                 <p>Oliver has a black labrador like the one seen below.</p>
-                <img src="https://images.squarespace-cdn.com/content/v1/5c6245b42727be14c54eceb9/1607592312574-5JXZFJSUSU9LISWC01OI/11+Friendly+facts+about+Labrador+Retrievers" height="500em" width="300em" alt="black dog">
+                <img src="https://images.squarespace-cdn.com/content/v1/5c6245b42727be14c54eceb9/1607592312574-5JXZFJSUSU9LISWC01OI/11+Friendly+facts+about+Labrador+Retrievers"
+                    height="500em" width="300em" alt="black dog">
             </section>
         </article>
     </section>
+    <button onclick="clickMe()">Click Me</button>
+    <div id="message"></div>
     <footer>
         <hr>
         <p>&copy; Oliver Sinnassamy 2024</p>
     </footer>
+    <script>
+        function clickMe() {
+            document.getElementById('message').textContent = "Hubert's right. It is not comming home"
+        }
+    </script>
 </body>
+
 </html>
