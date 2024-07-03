@@ -5,15 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hubert's Page</title>
+
+    <style>
+        body {
+            font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a {
+            border: solid 0.1em black;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="oliver.html">Oliver</a>
+        </nav>
+    </header>
     <h1>Hubert World</h1>
     <button onclick="showMessage()">Click Me!</button>
     <div id="message"></div>
     <script>
         function showMessage() {
-            document.getElementById('message').textContent = 'Unfortunately, it is not comming home :(';
+            document.getElementById('message').textContent = 'It is coming home :)';
         }
     </script>
 </body>
